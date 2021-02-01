@@ -24,6 +24,7 @@ security:
 
         liip_imagine:
             pattern:                        ^/media
+            methods:                        [GET]
             security:                       false
 
         login:
